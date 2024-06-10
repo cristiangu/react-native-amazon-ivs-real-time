@@ -15,7 +15,12 @@ import { AmazonIvsRealTimeView } from "react-native-amazon-ivs-real-time";
 
 // ...
 
-<AmazonIvsRealTimeView color="tomato" />
+<AmazonIvsRealTimeView
+  apiKey="you_api_key"
+  customerCode="your_customer_code"
+  isMuted={isMuted}
+  style={styles.myStyle}
+/>
 ```
 
 ## Contributing
